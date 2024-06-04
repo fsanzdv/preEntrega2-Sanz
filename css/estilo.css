@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(0, 0, 0, 0.526);
+    font-size: x-large;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 150px; 
+    margin-right: 10px;
+}
+.form-group input {
+    flex: 1;
+}
+.boton{
+    text-align: center;
+}
+button{
+    background-color:blueviolet;
+    color: whitesmoke;
+    border-color: blueviolet;
+    font-size:xx-large;
+}
