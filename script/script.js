@@ -1,5 +1,5 @@
 
-function tasacion(){
+/*function tasacion(){
    
     let año = prompt("Ingrese el año de su auto");
 año = parseInt(año);
@@ -35,4 +35,26 @@ alert("El precio de su auto es: " + precio);
  for( let i = 0 ; i <= año.length ; i = i + 1){
        
         alert("Tipo de año vehiculo que se reciben: " + año[i])
- }
+ }*/
+
+
+        function tasar() {
+            let anio = document.getElementById("anio");
+            console.log("El precio de su coche es: ", anio.value);
+        }
+
+        function respuesta(){
+            let anio = document.getElementById("anio");
+            let respuesta = document.getElementById("mensaje");
+            
+            
+            if (año >= 2000 && año <= 2010) {
+                precio = 1000;
+            } else if (año > 2010 && año <= 2020) {
+                precio = 3000;
+            } else {
+                precio = "No tenemos para ese auto";
+            }
+            alert("El precio de su auto es: " + precio);
+
+        }
